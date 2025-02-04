@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-family: 'questrial', sans-serif;
+}
+
+.hero-background{
+    background-image: url(images/Home.svg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.company-brand{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+}
+
+.company-brand h1{
+    font-size: 23px;
+}
+.company-brand img{
+    height: 40px;
+}
+.company-logo{
+    height: 50px;
+}
+
+nav h1{
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    width: 100%;
+}
+
+.hero-section-left,
+.hero-section-right {
+    flex: 1;
+}
+
+.hero-section-left{
+    font-size: 65px;
+    padding: 20px;
+    
+}
+
+.hero-section-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section-right img{
+    height: 450px;
+    border-radius: 50px;
+}
+
+.body1-background{
+    background-image: url(images/svgs/OurProduct.svg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.body1-section {
+    display: flex; 
+    justify-content: space-around; /* Align child elements within the section */
+    align-items: center; /* Align items vertically */
+    padding: 50px; /* Add spacing around the section */
+    height: 100vh; /* Optional: Ensure the section has sufficient height */
+}
+
+.body1-content-left {
+    height: 500px;
+    width: 700px;
+    /* display: inline-flex; */
+    /* background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    border: 0.1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px; */
+
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    background-color: rgba(255, 255, 255, 0.027);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.18);
+}
+.body1-content-left:hover{
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.body1-content-left h1 {
+    font-size: 50px;
+}
+
+.body1-content-left p {
+    font-size: 18px;
+    font-family: hanken-grotesk;
+    height: fit-content;
+}
+
+.body1-content-left h1,p{
+    padding: 60px;
+    padding-bottom: 2px;
+}
+
+.body1-content-right {
+    align-items: center;
+    justify-content: center;
+}
+
+.body1-content-right img{
+    height: 300px;
+    /* width: 400px; */
+    border-radius: 50px;
+}
+
+.body1-content-right p{
+    font-size: 26px;
+    font-family: hanken-grotesk;
+}
+
+.body2-background{
+    background-image: url(images/svgs/Features.svg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.body2-section{
+    display: flex;
+    justify-content: space-between;
+}
+
